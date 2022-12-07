@@ -3,6 +3,6 @@
   - name: Criando o arquivo index
     copy: 
       dest: /home/ubuntu/index.html
-      content: <h1>Feito com terraform e ansible Segundo teste</h1>
+      content: <h1>Feito com terraform e ansible Terceiro teste</h1>
   - name: Criando o servidor
     shell: "nohup busybox httpd -f -p 8080 &" 
